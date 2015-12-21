@@ -1,0 +1,43 @@
+{
+  "name": "react-boilerplate-with-ssr",
+  "version": "0.0.1",
+  "description": "Boilerplate to start react based development using node.js and express for server side rendering",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --compilers js:babel-core/register --reporter dot --recursive",
+    "start": "webpack-dev-server --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Mizan85@bitbucket.org/Mizan85/react-boilerplate-with-ssr.git"
+  },
+  "author": "Miz85",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/Mizan85/react-boilerplate-with-ssr#readme",
+  "dependencies": {
+    "history": "^1.13.1",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-router": "^1.0.2"
+  },
+  "devDependencies": {
+    "babel": "^6.3.13",
+    "babel-core": "^6.3.17",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-register": "^6.3.13",
+    "chai": "^3.4.1",
+    "jsdom": "^7.2.1",
+    "mocha": "^2.3.4",
+    "react-addons-test-utils": "^0.14.3",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  }
+}
